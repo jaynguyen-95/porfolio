@@ -1,0 +1,4 @@
+Latest portfolio package rebuilt: 2026-10-28
+Homepage: index.html (Portfolio v2)
+Settings editor: settings.html
+Editable content file: portfolio-data.js

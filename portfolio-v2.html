@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#a62e29">
+  <meta name="description" content="Nguyen Dong Quy — multitasking designer. Selected work in key visuals, card design, packaging, POSM, 3D and UX/UI.">
+  <title>Nguyen Dong Quy — Designer &amp; Creative Partner</title>
+  <style>
+    :root{--red:#a82e29;--red-dark:#79211f;--paper:#f7f6f2;--ink:#191917;--muted:#777770;--line:#deddd7;--serif:Georgia,'Times New Roman',serif;--sans:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--radius:24px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1380px,calc(100% - 80px));margin:auto}
+    .hero{height:min(900px,100svh);min-height:690px;background:var(--red);color:#fff;position:relative;overflow:hidden}.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 74% 27%,#e85e454d,transparent 38%),linear-gradient(120deg,#882522 0%,#ad342c 55%,#c14432 100%)}.hero-top{position:relative;z-index:3;height:82px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:14px;letter-spacing:-.03em;font-weight:650}.contact-pill{border:1px solid #ffffffa3;padding:12px 18px;border-radius:999px;font-size:11px;transition:background .2s,color .2s}.contact-pill:hover{background:#fff;color:var(--red)}.portrait{position:absolute;z-index:1;bottom:0;right:12%;height:86%;max-width:55%;display:flex;align-items:end}.portrait img{display:block;max-height:100%;max-width:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 18px 36px #50181538)}.hero-copy{position:absolute;z-index:2;left:max(40px,calc((100vw - 1380px)/2));right:40px;bottom:15%;pointer-events:none}.hero-copy h1{font-size:clamp(82px,14vw,205px);line-height:.78;letter-spacing:-.09em;font-weight:560;margin:0;color:#fff;white-space:nowrap;text-shadow:0 4px 28px #74201c29}.hero-copy p{font-size:clamp(13px,1.5vw,18px);letter-spacing:.02em;margin:24px 0 0 8px;color:#fffdf0d9}.hero-nav{position:absolute;z-index:4;bottom:28px;left:50%;transform:translateX(-50%);display:flex;gap:4px;padding:6px;border:1px solid #ffffff4d;border-radius:999px;background:#fff2;backdrop-filter:blur(18px);white-space:nowrap}.hero-nav a{font-size:11px;padding:11px 16px;border-radius:999px;transition:background .2s,color .2s}.hero-nav a:hover,.hero-nav a.active{background:#fff;color:var(--ink)}
+    .section{padding:112px 0;border-top:1px solid var(--line)}.section-kicker{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}.section-title{font-size:clamp(43px,7vw,88px);line-height:.9;letter-spacing:-.08em;font-weight:540;margin:16px 0 0}.works-intro{display:flex;align-items:end;justify-content:space-between;gap:32px;margin-bottom:42px}.works-intro p{font-size:14px;line-height:1.7;color:var(--muted);max-width:350px;margin:0 0 4px}.work-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.work-card{min-width:0}.work-visual{aspect-ratio:1.55;border-radius:var(--radius);position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;transition:transform .35s cubic-bezier(.2,.7,.2,1)}.work-visual img.work-thumb-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}.work-card:hover .work-visual{transform:scale(.985)}.work-visual::after{content:'↗';position:absolute;right:17px;top:17px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#ffffffd9;color:var(--ink);opacity:0;transform:translateY(4px);transition:.25s}.work-card:hover .work-visual::after{opacity:1;transform:none}.work-info{display:flex;justify-content:space-between;gap:18px;align-items:start;padding:15px 3px 8px}.work-info h3{font-size:17px;letter-spacing:-.04em;font-weight:560;margin:0}.work-info p{font-size:11px;color:var(--muted);margin:6px 0 0}.work-info span{font-size:10px;color:var(--muted);white-space:nowrap}
+    .kv{background:linear-gradient(135deg,#e4c9b5,#c9a187)}.kv-poster{width:37%;height:76%;border-radius:12px;background:#f4ece0;box-shadow:0 22px 48px #482e2733;display:flex;align-items:center;justify-content:center;position:relative;transform:rotate(-5deg)}.kv-poster strong{position:absolute;top:12%;left:12%;font-size:clamp(13px,2vw,23px);line-height:.92;letter-spacing:-.07em}.kv-sun{width:48%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 34% 30%,#f7d58e,#c84b33 68%,#672b2b);box-shadow:inset -15px -12px 25px #4d201c3d}.kv-poster small{position:absolute;bottom:9%;right:10%;font-size:6px;letter-spacing:.12em}
+    .cards-art{background:#292522}.sample-card{position:absolute;width:24%;height:62%;border-radius:14px;padding:15px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 18px 35px #0005}.sample-card b{font:italic clamp(14px,2vw,26px)/.95 var(--serif);letter-spacing:-.05em}.sample-card small{font-size:7px;letter-spacing:.1em}.sample-card.one{background:#b43d31;color:#f8e8d8;left:14%;transform:rotate(-12deg)}.sample-card.two{background:#0c6863;color:#f3e8d3;left:38%;z-index:2;transform:translateY(-4px) rotate(2deg)}.sample-card.three{background:#c3a45f;color:#29251f;left:62%;transform:rotate(10deg)}
+    .posm-art{background:#ead4c5}.display{width:26%;height:66%;background:#f8eee3;border-radius:14px 14px 7px 7px;box-shadow:14px 20px 35px #56372c25;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;transform:perspective(600px) rotateY(-9deg)}.display b{font:clamp(24px,3.3vw,45px)/.86 var(--serif);letter-spacing:-.07em;text-align:center;color:#45543b}.display i{width:52%;aspect-ratio:1;border-radius:50%;margin-top:15px;background:radial-gradient(circle at 32% 28%,#ffd27b,#db7845 65%,#914638)}.display::after{content:'';position:absolute;bottom:-14%;left:-13%;width:126%;height:16%;background:#bc7650;border-radius:0 0 8px 8px}
+    .three-art{background:#d9d7e2}.product-form{width:31%;aspect-ratio:1;border-radius:28%;position:relative;transform:rotate(-24deg) skew(4deg,4deg);background:linear-gradient(135deg,#f7f0ff,#a7a0c8);box-shadow:25px 30px 48px #34314a3b}.product-form::before{content:'03';position:absolute;inset:16%;border:1px solid #fff9;border-radius:22%;display:grid;place-items:center;font:italic clamp(30px,5vw,62px) var(--serif);color:#595271;transform:rotate(24deg)}
+    .ux-art{background:#cad6cc}.phone{height:78%;width:24%;border:7px solid #252926;border-radius:28px;background:#f4f2e8;box-shadow:0 22px 40px #28342a35;padding:17px 13px;display:flex;flex-direction:column;gap:9px;transform:rotate(5deg)}.phone i{width:35%;height:5px;border-radius:8px;background:#252926;align-self:center;margin-bottom:6px}.phone strong{font:clamp(16px,2vw,25px)/.95 var(--serif);font-weight:400}.phone span{flex:1;border-radius:11px;background:#bac9a1;display:grid;place-items:center;font-size:25px}.phone small{height:5px;border-radius:8px;background:#d5d6cf}
+    .packaging-art{background:linear-gradient(135deg,#d9d6c9,#c5b9a4)}.package-set{position:relative;width:52%;height:76%}.package-box{position:absolute;left:11%;top:8%;width:48%;height:84%;padding:12% 9%;border-radius:7px;background:#f4ede0;box-shadow:18px 23px 34px #43372c35;transform:rotate(-6deg);display:flex;flex-direction:column;justify-content:space-between;color:#39483a}.package-box small,.package-pouch small{font-size:clamp(5px,.65vw,8px);letter-spacing:.16em}.package-box strong{font:clamp(18px,3.2vw,42px)/.83 var(--serif);letter-spacing:-.06em}.package-box i{width:58%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 34% 30%,#f4ca82,#bb603d 72%);align-self:center}.package-pouch{position:absolute;right:2%;top:3%;width:39%;height:91%;padding:11% 8%;border-radius:13px 13px 18px 18px;background:linear-gradient(110deg,#c5a45f,#a77d39);box-shadow:14px 20px 30px #49381f3c;transform:rotate(7deg);display:flex;flex-direction:column;justify-content:space-between;color:#fff9eb}.package-pouch strong{font:italic clamp(15px,2.5vw,32px)/.9 var(--serif);letter-spacing:-.05em}
+    .services{background:#eeede8}.services-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:70px}.services-title{position:sticky;top:120px;align-self:start}.services-title p{font-size:13px;line-height:1.7;color:var(--muted);max-width:290px;margin-top:24px}.service-list{border-top:1px solid #d8d7d0}.service{display:grid;grid-template-columns:.75fr 1.25fr;gap:25px;padding:26px 0;border-bottom:1px solid #d8d7d0}.service h3{font-size:19px;letter-spacing:-.04em;font-weight:530;margin:0}.service p{font-size:12px;line-height:1.7;color:var(--muted);max-width:390px;margin:0}
+    .faq-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px}.faq-aside p{font-size:13px;line-height:1.7;color:var(--muted);max-width:300px;margin:24px 0}.outline-link{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:999px;padding:12px 17px;font-size:11px;transition:background .2s,color .2s}.outline-link:hover{background:var(--ink);color:white}.faq-list{border-top:1px solid var(--line)}details{border-bottom:1px solid var(--line)}summary{list-style:none;cursor:pointer;padding:22px 3px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:15px;letter-spacing:-.02em}summary::-webkit-details-marker{display:none}summary::after{content:'↓';font-size:15px;transition:transform .2s}details[open] summary::after{transform:rotate(180deg)}details p{font-size:12px;line-height:1.75;color:var(--muted);max-width:650px;margin:0;padding:0 30px 22px 3px}
+    .contact{background:#171715;color:#f6f4ec;padding:95px 0 25px;border-radius:32px 32px 0 0}.contact-main{display:flex;align-items:end;justify-content:space-between;gap:30px;padding-bottom:72px}.contact h2{font-size:clamp(52px,9.2vw,125px);line-height:.86;letter-spacing:-.09em;font-weight:530;margin:18px 0 0}.contact h2 em{font-family:var(--serif);font-weight:400;color:#df493d}.contact-button{border-radius:999px;background:#f6f4ec;color:#171715;padding:15px 20px;font-size:12px;white-space:nowrap;transition:background .2s}.contact-button:hover{background:#df493d;color:white}.contact-bottom{border-top:1px solid #ffffff35;padding:18px 0 0;display:flex;justify-content:space-between;align-items:center;gap:18px;color:#b5b4ad;font-size:10px}.contact-links{display:flex;gap:21px}.contact-links a{color:#f6f4ec}.contact-links a:hover{color:#df493d}
+    @media(max-width:800px){.wrap{width:calc(100% - 40px)}.hero{min-height:720px;height:92svh;max-height:900px}.hero-top{height:68px}.portrait{right:-2%;height:74%;max-width:75%;opacity:.92}.hero-copy{left:22px;right:20px;bottom:19%}.hero-copy h1{font-size:clamp(68px,15vw,130px);white-space:normal;line-height:.82}.hero-copy p{max-width:270px;line-height:1.5;margin-left:3px}.hero-nav{bottom:18px;max-width:calc(100% - 24px);overflow-x:auto}.hero-nav a{padding:10px 13px;font-size:10px}.section{padding:78px 0}.works-intro{align-items:start;flex-direction:column;gap:17px;margin-bottom:27px}.work-grid{gap:18px}.work-visual{border-radius:18px}.services-layout,.faq-layout{grid-template-columns:1fr;gap:35px}.services-title{position:static}.services-title p{margin-top:17px}.service{grid-template-columns:.7fr 1.3fr;gap:16px;padding:20px 0}.contact{padding:68px 0 22px;border-radius:24px 24px 0 0}.contact-main{align-items:flex-start;flex-direction:column;padding-bottom:48px}.contact h2{font-size:clamp(58px,13vw,95px)}.contact-bottom{align-items:flex-start;flex-direction:column}.contact-links{gap:16px;flex-wrap:wrap}}
+    @media(max-width:560px){.wrap{width:calc(100% - 32px)}.hero{min-height:680px;height:92svh}.portrait{right:-12%;height:63%;max-width:88%;opacity:.88}.hero-copy{bottom:22%;left:16px}.hero-copy h1{font-size:clamp(62px,16vw,94px);max-width:95%}.hero-nav{left:16px;right:16px;transform:none;justify-content:flex-start}.hero-nav a{padding:9px 11px}.section{padding:64px 0}.section-title{font-size:clamp(43px,12vw,66px)}.work-grid{grid-template-columns:1fr;gap:15px}.work-visual{aspect-ratio:1.25}.sample-card{width:27%;height:64%;padding:12px}.sample-card.one{left:11%}.sample-card.two{left:36%}.sample-card.three{left:61%}.kv-poster{width:42%}.display{width:31%}.product-form{width:36%}.phone{width:30%}.service{grid-template-columns:1fr;gap:7px}.service h3{font-size:17px}summary{font-size:14px;padding:19px 2px}.contact-links{display:grid;grid-template-columns:1fr 1fr;gap:13px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+    /* Version 2 cover: full-bleed portrait with centered introduction. */
+    .hero{background:#34333c}
+    .hero::before{z-index:1;background:linear-gradient(180deg,#17171a35 0%,#17171a0a 35%,#17171a40 100%)}
+    .hero-cover{position:absolute;inset:0;z-index:0;margin:0;overflow:hidden}
+    .hero-cover img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 44%}
+    .hero-copy{left:50%;right:auto;top:auto;bottom:110px;transform:translateX(-50%);width:min(1000px,calc(100% - 48px));text-align:center;pointer-events:none}
+    .hero-copy .eyebrow{display:none}
+    .hero-copy h1{font-size:clamp(52px,7.5vw,112px);line-height:.88;letter-spacing:-.075em;white-space:normal;text-shadow:0 5px 32px #1118}
+    .hero-copy h1 em{font-family:var(--serif);font-weight:400;color:#ee6b5e;letter-spacing:-.065em}
+    .hero-copy p{font-size:clamp(13px,1.25vw,16px);line-height:1.65;letter-spacing:0;color:#fff;margin:21px auto 0;max-width:650px;text-shadow:0 2px 15px #111a}
+    @media(max-width:800px){.hero-cover img{object-position:center 42%}.hero-copy{left:50%;right:auto;top:auto;bottom:130px;width:calc(100% - 40px);transform:translateX(-50%)}.hero-copy h1{font-size:clamp(48px,8vw,76px)}.hero-copy p{max-width:540px;margin:19px auto 0}}
+    @media(max-width:560px){.hero-cover img{object-position:center 40%}.hero-copy{left:50%;right:auto;top:auto;bottom:120px;width:calc(100% - 32px);transform:translateX(-50%)}.hero-copy h1{font-size:clamp(48px,12vw,72px);max-width:none}.hero-copy p{font-size:13px;line-height:1.6;margin-top:17px}.hero-nav{left:50%;right:auto;transform:translateX(-50%);width:max-content;max-width:calc(100% - 24px);justify-content:flex-start;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-webkit-overflow-scrolling:touch;bottom:calc(18px + env(safe-area-inset-bottom))}.hero-nav::-webkit-scrollbar{display:none}.hero-nav a{flex:0 0 auto;padding:9px 11px;font-size:10px}}
+    .artwork-dialog{position:fixed;inset:0;z-index:20;display:none;align-items:center;justify-content:center;padding:24px;background:#151515a8;backdrop-filter:blur(8px)}
+    .artwork-dialog.is-open{display:flex;animation:dialog-fade .18s ease-out}
+    @keyframes dialog-fade{from{opacity:0}to{opacity:1}}
+    .artwork-panel{position:relative;width:min(1100px,100%);max-height:min(92vh,900px);overflow:auto;padding:22px;border-radius:24px;background:var(--paper);box-shadow:0 24px 90px #0005}
+    .artwork-panel-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
+    .artwork-panel-title{margin:0;font-size:clamp(20px,3vw,32px);letter-spacing:-.06em}
+    .artwork-panel-close{width:38px;height:38px;flex:0 0 auto;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--ink);cursor:pointer;font-size:22px;line-height:1}
+    .artwork-gallery-toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:2px 0 14px;color:var(--muted);font-size:11px}
+    .artwork-upload{position:relative;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:999px;padding:10px 14px;color:var(--ink);font-size:11px;cursor:pointer;white-space:nowrap;transition:background .18s}
+    .artwork-upload:hover{background:#eceae3}.artwork-upload input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
+    .artwork-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .gallery-tile{min-width:0;aspect-ratio:1.28;position:relative;overflow:hidden;border-radius:15px;background:#e7e5de;margin:0}
+    .gallery-tile.work-visual{width:100%;height:auto;min-height:0;border-radius:15px;aspect-ratio:1.28;transform:none!important}
+    .gallery-tile::after{display:none!important}
+    .gallery-tile img{width:100%;height:100%;display:block;object-fit:cover}
+    .gallery-tile figcaption{position:absolute;left:0;right:0;bottom:0;padding:20px 10px 9px;background:linear-gradient(transparent,#1119);color:#fff;font-size:10px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+    .gallery-feature-label{position:absolute;left:10px;bottom:9px;padding:6px 8px;border-radius:99px;background:#171715b8;color:#fff;font-size:9px}
+    .gallery-remove{position:absolute;top:8px;right:8px;width:26px;height:26px;border:0;border-radius:50%;background:#171715c9;color:#fff;cursor:pointer;font-size:16px;line-height:1}
+    .artwork-gallery .kv-poster{width:37%;height:76%}.artwork-gallery .sample-card{height:62%;width:24%;padding:15px}.artwork-gallery .display{height:66%;width:26%}.artwork-gallery .product-form{width:31%}.artwork-gallery .phone{height:78%;width:24%}.artwork-gallery .package-set{width:52%;height:76%}
+    .artwork-panel-copy{display:flex;justify-content:space-between;gap:20px;align-items:baseline;padding:14px 2px 0;color:var(--muted);font-size:12px}
+    .artwork-panel-copy strong{color:var(--ink);font-size:14px}
+    .explore-button{border:0;background:none;color:var(--muted);font:inherit;font-size:10px;white-space:nowrap;cursor:pointer;padding:3px 0}
+    .explore-button:hover{color:var(--red)}
+    .work-card{cursor:pointer;border-radius:var(--radius)}.work-card:focus-visible{outline:2px solid #2a79ff;outline-offset:5px}
+    @media(max-width:700px){.artwork-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.artwork-gallery-toolbar{align-items:flex-start;flex-direction:column}.artwork-panel{max-height:94vh}}
+    @media(max-width:560px){.artwork-dialog{padding:12px}.artwork-panel{padding:13px;border-radius:18px}.gallery-tile{aspect-ratio:1.05;border-radius:12px}.gallery-tile.work-visual{border-radius:12px}.artwork-gallery .kv-poster{width:42%}.artwork-gallery .sample-card{height:63%;width:26%;padding:10px}.artwork-gallery .sample-card.one{left:11%}.artwork-gallery .sample-card.two{left:36%}.artwork-gallery .sample-card.three{left:61%}.artwork-gallery .display{width:32%}.artwork-gallery .product-form{width:38%}.artwork-gallery .phone{width:35%}.artwork-gallery .package-set{width:72%;height:72%}.artwork-panel-copy{align-items:flex-start;flex-direction:column;gap:5px}}
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-top wrap"><a class="brand" href="#home">NGUYEN DONG QUY</a><a class="contact-pill" href="mailto:ndquy1995@gmail.com">Get in touch ↗</a></div>
+      <figure class="hero-cover"><img src="jay.jpg" alt="Dong Quy seated in a suit against a soft gradient background" /></figure>
+      <div class="hero-copy"><h1 id="hero-title">Design made<br><em>to be felt.</em></h1><p>Hi, I’m Dong Quy — a multitasking designer building thoughtful visuals and digital experiences with character, clarity and feeling. I’m open to remote roles and project collaborations only.</p></div>
+      <nav class="hero-nav" aria-label="Main navigation"><a class="active" href="#home">Home</a><a href="#work">Works</a><a href="#services">What I do</a><a href="#faq">FAQs</a><a href="#contact">Contact</a></nav>
+    </section>
+    <section class="section wrap" id="work" aria-labelledby="works-title">
+      <div class="works-intro"><div><span class="section-kicker">A selection of recent work</span><h2 class="section-title" id="works-title">Featured works</h2></div><p>A curated collection across identity, packaging, retail, 3D and digital experiences.</p></div>
+      <div class="work-grid">
+        <article class="work-card" id="work-key-visual" tabindex="0" aria-label="Open Key Visual artwork"><div class="work-visual kv"><div class="kv-poster"><strong>FORM<br>IN MOTION</strong><div class="kv-sun"></div><small>CAMPAIGN / 2026</small></div></div><div class="work-info"><div><h3>Key Visual</h3><p>Campaign · Art direction · Visual system</p></div><button class="explore-button" type="button">Explore ↗</button></div></article>
+        <article class="work-card" id="work-card-design" tabindex="0" aria-label="Open Card Design artwork"><div class="work-visual cards-art"><div class="sample-card one"><small>NGUYEN / STUDIO</small><b>Make it<br>matter.</b><small>IDENTITY / 01</small></div><div class="sample-card two"><small>SUNDAY / STUDIO</small><b>Good ideas<br>start here.</b><small>PRINT / 02</small></div><div class="sample-card three"><small>FIELD NOTES</small><b>Leave a<br>mark.</b><small>DESIGN / 03</small></div></div><div class="work-info"><div><h3>Card Design</h3><p>Business card · Print design</p></div><button class="explore-button" type="button">Explore ↗</button></div></article>
+        <article class="work-card" id="work-posm" tabindex="0" aria-label="Open POSM artwork"><div class="work-visual posm-art"><div class="display"><b>fresh<br>every day</b><i></i></div></div><div class="work-info"><div><h3>POSM</h3><p>Retail · Display · In-store experience</p></div><button class="explore-button" type="button">Explore ↗</button></div></article>
+        <article class="work-card" id="work-3d" tabindex="0" aria-label="Open 3D Item artwork"><div class="work-visual three-art"><div class="product-form"></div></div><div class="work-info"><div><h3>3D Item</h3><p>3D visualization · Product render</p></div><button class="explore-button" type="button">Explore ↗</button></div></article>
+        <article class="work-card" id="work-ux-ui" tabindex="0" aria-label="Open UX / UI artwork"><div class="work-visual ux-art"><div class="phone"><i></i><strong>A little<br>more mindful.</strong><span>✳</span><small></small><small></small></div></div><div class="work-info"><div><h3>UX / UI</h3><p>Product design · Web &amp; mobile</p></div><button class="explore-button" type="button">Explore ↗</button></div></article>
+        <article class="work-card" id="work-packaging" tabindex="0" aria-label="Open Packaging artwork"><div class="work-visual packaging-art"><div class="package-set"><div class="package-box"><small>NGUYEN / STUDIO</small><strong>GOOD<br>THINGS</strong><i></i><small>PACKAGING / 2026</small></div><div class="package-pouch"><small>FRESH DAILY</small><strong>Made<br>with care.</strong><small>250 g</small></div></div></div><div class="work-info"><div><h3>Packaging</h3><p>Packaging · Brand system · Product design</p></div><button class="explore-button" type="button">Explore ↗</button></div></article>
+      </div>
+    </section>
+    <section class="section services" id="services" aria-labelledby="services-title"><div class="wrap services-layout"><div class="services-title"><span class="section-kicker">From idea to detail</span><h2 class="section-title" id="services-title">What I do</h2><p>Creative support for brands and teams, from a first visual direction to the details people interact with.</p></div><div class="service-list">
+      <article class="service"><h3>Key Visual</h3><p>Campaign-led imagery for launches, brand stories and digital touchpoints.</p></article>
+      <article class="service"><h3>Card Design</h3><p>Business cards and small-format print with considered typography and material.</p></article>
+      <article class="service"><h3>POSM</h3><p>Retail displays, point-of-sale materials and in-store brand moments.</p></article>
+      <article class="service"><h3>3D Item</h3><p>Product forms, material studies and polished 3D visuals.</p></article>
+      <article class="service"><h3>UX / UI</h3><p>Web and mobile interfaces, from structure through to polished UI.</p></article>
+      <article class="service"><h3>Packaging</h3><p>Packaging concepts, labels and product systems that make a brand feel cohesive on shelf.</p></article>
+    </div></div></section>
+    <section class="section wrap" id="faq" aria-labelledby="faq-title"><div class="faq-layout"><div class="faq-aside"><span class="section-kicker">A few helpful details</span><h2 class="section-title" id="faq-title">FAQs</h2><p>Have another question? Send me a note and I’ll get back to you.</p><a class="outline-link" href="mailto:ndquy1995@gmail.com"><span>●</span> Get in touch</a></div><div class="faq-list">
+      <details><summary>What kind of work do you take on?</summary><p>I work across key visuals, card design, packaging, POSM, 3D items and UX/UI.</p></details>
+      <details><summary>Are you available for remote work?</summary><p>Yes. I’m open to remote roles and project collaborations only.</p></details>
+      <details><summary>How can we get started?</summary><p>Email me a short project overview and the best way to reach you. We can discuss the scope and next steps.</p></details>
+      <details><summary>Where can I see more of your work?</summary><p>Use the featured work links above, or contact me for project details.</p></details>
+    </div></div></section>
+    <footer class="contact" id="contact"><div class="wrap"><div class="contact-main"><div><span class="section-kicker">Have a project in mind?</span><h2>Let’s make<br><em>something good.</em></h2></div><a class="contact-button" href="mailto:ndquy1995@gmail.com">Get in touch ↗</a></div><div class="contact-bottom"><span>Open to remote roles and projects only · © 2026 Nguyen Dong Quy</span><div class="contact-links"><a href="mailto:ndquy1995@gmail.com">ndquy1995@gmail.com</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="tel:+84903896195">0903896195 ↗</a></div></div></div></footer>
+    <div class="artwork-dialog" id="artwork-dialog" aria-hidden="true">
+      <div class="artwork-panel" role="dialog" aria-modal="true" aria-labelledby="artwork-title">
+        <div class="artwork-panel-head"><h2 class="artwork-panel-title" id="artwork-title">Artwork</h2><button class="artwork-panel-close" type="button" aria-label="Close artwork">×</button></div>
+        <div class="artwork-gallery-toolbar"><span>Project artwork gallery</span></div>
+        <div class="artwork-gallery" id="artwork-gallery"></div>
+        <div class="artwork-panel-copy"><strong id="artwork-caption"></strong><span id="artwork-description"></span></div>
+      </div>
+    </div>
+  </main>
+  <script src="portfolio-data.js"></script>
+  <script>
+    const artworkDialog = document.getElementById('artwork-dialog');
+    const artworkGallery = document.getElementById('artwork-gallery');
+    const artworkTitle = document.getElementById('artwork-title');
+    const artworkCaption = document.getElementById('artwork-caption');
+    const artworkDescription = document.getElementById('artwork-description');
+    const artworkClose = artworkDialog.querySelector('.artwork-panel-close');
+    const portfolioData = window.PORTFOLIO_DATA || {};
+    if (portfolioData.brand) document.querySelector('.brand').textContent = portfolioData.brand;
+    if (portfolioData.intro) document.querySelector('.hero-copy p').textContent = portfolioData.intro;
+    if (portfolioData.coverImage) document.querySelector('.hero-cover img').src = portfolioData.coverImage;
+    if (portfolioData.servicesIntro) document.querySelector('.services-title > p').textContent = portfolioData.servicesIntro;
+    if (portfolioData.faqIntro) document.querySelector('.faq-aside > p').textContent = portfolioData.faqIntro;
+    if (Array.isArray(portfolioData.services)) {
+      const list = document.querySelector('.service-list');
+      list.replaceChildren();
+      portfolioData.services.forEach((item) => { const row=document.createElement('article'); row.className='service'; const title=document.createElement('h3'); title.textContent=item.title||''; const description=document.createElement('p'); description.textContent=item.description||''; row.append(title,description); list.append(row); });
+    }
+    if (Array.isArray(portfolioData.faqs)) {
+      const list = document.querySelector('.faq-list');
+      list.replaceChildren();
+      portfolioData.faqs.forEach((item) => { const detail=document.createElement('details'); const question=document.createElement('summary'); question.textContent=item.question||''; const answer=document.createElement('p'); answer.textContent=item.answer||''; detail.append(question,answer); list.append(detail); });
+    }
+    Object.entries(portfolioData.projects || {}).forEach(([id, project]) => {
+      const card = document.getElementById(id);
+      if (!card) return;
+      if (project.title) card.querySelector('h3').textContent = project.title;
+      if (project.description) card.querySelector('.work-info p').textContent = project.description;
+      if (project.thumbnail) { const visual=card.querySelector('.work-visual'); visual.replaceChildren(); const image=document.createElement('img'); image.className='work-thumb-image'; image.src=project.thumbnail; image.alt=`${project.title||card.querySelector('h3').textContent} thumbnail`; visual.append(image); }
+      card.setAttribute('aria-label', `Open ${card.querySelector('h3').textContent} artwork`);
+    });
+    let activeWorkCard = null;
+    let lastArtworkTrigger = null;
+    function renderGallery(card) {
+      artworkGallery.replaceChildren();
+      const featured = card.querySelector('.work-visual').cloneNode(true);
+      featured.classList.add('gallery-tile');
+      const featuredLabel = document.createElement('span');
+      featuredLabel.className = 'gallery-feature-label';
+      featuredLabel.textContent = 'Featured artwork';
+      featured.append(featuredLabel);
+      artworkGallery.append(featured);
+      const saved = (portfolioData.projects && portfolioData.projects[card.id] && portfolioData.projects[card.id].images) || [];
+      saved.forEach((item, index) => {
+        const tile = document.createElement('figure');
+        tile.className = 'gallery-tile';
+        const image = document.createElement('img');
+        image.src = item.data;
+        image.alt = item.name || `Artwork ${index + 1}`;
+        const caption = document.createElement('figcaption');
+        caption.textContent = item.name || `Artwork ${index + 1}`;
+        tile.append(image, caption);
+        artworkGallery.append(tile);
+      });
+    }
+    function openArtwork(card, trigger) {
+      activeWorkCard = card;
+      lastArtworkTrigger = trigger;
+      const title = card.querySelector('h3').textContent;
+      artworkTitle.textContent = title;
+      artworkCaption.textContent = title;
+      const project = portfolioData.projects && portfolioData.projects[card.id];
+      artworkDescription.textContent = project && project.popupDescription ? project.popupDescription : card.querySelector('.work-info p').textContent;
+      renderGallery(card);
+      artworkDialog.classList.add('is-open');
+      artworkDialog.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      artworkClose.focus();
+    }
+    function closeArtwork() {
+      artworkDialog.classList.remove('is-open');
+      artworkDialog.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      if (lastArtworkTrigger) lastArtworkTrigger.focus();
+    }
+    document.querySelectorAll('.work-card').forEach((card) => {
+      card.addEventListener('click', (event) => {
+        openArtwork(card, event.target.closest('.explore-button') || card);
+      });
+      card.addEventListener('keydown', (event) => {
+        if (event.target === card && (event.key === 'Enter' || event.key === ' ')) {
+          event.preventDefault();
+          openArtwork(card, card);
+        }
+      });
+    });
+    artworkClose.addEventListener('click', closeArtwork);
+    artworkDialog.addEventListener('click', (event) => {
+      if (event.target === artworkDialog) closeArtwork();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && artworkDialog.classList.contains('is-open')) closeArtwork();
+    });
+  </script>
+</body>
+</html>
